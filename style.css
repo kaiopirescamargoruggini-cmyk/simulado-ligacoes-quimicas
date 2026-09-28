@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #eef2f7;
+    color: #1f2937;
+}
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 30px auto;
+}
+header {
+    background: #172554;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+header h1 {
+    margin: 0 0 10px;
+}
+.questao {
+    background: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+.questao h2 {
+    font-size: 19px;
+}
+.questao label {
+    display: block;
+    background: #f8fafc;
+    padding: 14px;
+    margin: 8px 0;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.questao label:hover {
+    background: #e0f2fe;
+}
+.facil,
+.medio,
+.dificil {
+    font-weight: bold;
+}
+.facil {
+    color: green;
+}
+.medio {
+    color: #c27c00;
+}
+.dificil {
+    color: red;
+}
+button {
+    width: 100%;
+    padding: 18px;
+    border: none;
+    border-radius: 10px;
+    background: #2563eb;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover {
+    background: #1d4ed8;
+}
+#resultado {
+    display: none;
+    background: white;
+    margin-top: 25px;
+    padding: 30px;
+    border-radius: 12px;
+}
+.certa {
+    color: green;
+}
+.errada {
+    color: red;
+}
+.explicacao {
+    background: #f1f5f9;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
